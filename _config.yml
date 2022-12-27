@@ -15,7 +15,6 @@
   minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-  futrue                   : true
   locale                   : "ko-KR"
   title                    : "SEUNGJOON OH"
   title_separator          : "-"
@@ -28,6 +27,7 @@
   teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
   logo                     : "/assets/images/i.jpg"
   masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+  future                   : true
   breadcrumbs              : true # true, false (default)
   words_per_minute         : 200
   comments:
