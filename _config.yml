@@ -23,7 +23,7 @@
   description              : "-"
   url                      : "https://asozkdfj.github.io"
   baseurl                  : # the subpath of your site, e.g. "/blog"
-  repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+  repository               : "asozkdfj/asozkdfj.github.io"
   teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
   logo                     : "/assets/images/i.jpg"
   masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -105,7 +105,7 @@
   # Site Author
   author:
     name             : "오승준 SEUNGJOON OH"
-    avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+    avatar           : "/assets/images/white.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
     bio              : "testing blog for my study"
     location         : "South-Korea"
     email            :
@@ -115,7 +115,7 @@
         url: "mailto:tfy203@gmail.com"
       - label: "Website"
         icon: "fas fa-fw fa-link"
-        # url: "https://your-website.com"
+        url: "https://asozkdfj.github.io"
       - label: "GitHub"
         icon: "fab fa-fw fa-github"
         url: "https://github.com/asozkdfj"
