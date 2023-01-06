@@ -4,7 +4,7 @@ main:
     url: /categories/
   - title: "Tag"
     url: /tags/
-   - title: "Review"
+  - title: "Review"
     url: /reviews/  
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
