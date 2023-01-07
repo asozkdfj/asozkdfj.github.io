@@ -33,7 +33,7 @@
   comments:
     provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
     disqus:
-      shortname            : "asozkdfj-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+      shortname            : "asozkdfj" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-   asozkdfj-github-io
     discourse:
       server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
     facebook:
@@ -274,7 +274,7 @@
         author_profile: true
         read_time: true
         comments: true
-        key: anything
+        #key: anything
         share: true
         related: true
         show_date: true
