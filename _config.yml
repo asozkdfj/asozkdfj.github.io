@@ -275,6 +275,7 @@
         author_profile: true
         read_time: true
         comments: true
+        key: anything
         share: true
         related: true
         show_date: true
