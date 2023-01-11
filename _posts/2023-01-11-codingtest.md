@@ -17,6 +17,9 @@
 
 vector stl 경우  
 - push_back 사용  
+- vector stl 사용할 경우, size는 따로 저장해 놓은다음 for문 돌리기
+(pop_back이나 push_back을 통해 for문 시, 사이즈 변경될 수도 있다.)
+(프로그래머스:배열 뒤집기)
 
 unorder map 자료구조  
 - map 자료구조에 비해 key가 적은 경우 유리함.  
