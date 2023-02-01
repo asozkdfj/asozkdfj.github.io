@@ -2,12 +2,12 @@
     layout: posts
     title: "코테준비"
     excerpt: "코테공부중 생각할 것 정리입니다."
-    categories: coding
-    tags: [coding, blog]
+    categories: codingtest
+    tags: [codingtest, blog]
     toc_label: 목차
     toc: true
     toc_sticky: true
-    last_modified_at: 2023-01-11
+    last_modified_at: 2023-02-02
     classes: wide
 ---
 
@@ -20,6 +20,8 @@ vector stl 경우
 - vector stl 사용할 경우, size는 따로 저장해 놓은다음 for문 돌리기
 (pop_back이나 push_back을 통해 for문 시, 사이즈 변경될 수도 있다.)
 (프로그래머스:배열 뒤집기)
+- reverse 함수 잊지 말기 => reverse(num_list.begin(),num_list.end()) 이런식으로
+
 
 unorder map 자료구조  
 - map 자료구조에 비해 key가 적은 경우 유리함.  
