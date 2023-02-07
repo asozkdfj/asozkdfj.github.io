@@ -2,12 +2,12 @@
     layout: posts
     title: "코테준비"
     excerpt: "코테공부중 생각할 것 정리입니다."
-    categories: codingtest
-    tags: [codingtest, blog]
+    categories: coding
+    tags: [coding, blog]
     toc_label: 목차
     toc: true
     toc_sticky: true
-    last_modified_at: 2023-02-02
+    last_modified_at: 2023-01-11
     classes: wide
 ---
 
