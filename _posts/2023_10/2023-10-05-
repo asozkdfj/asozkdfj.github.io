@@ -1,0 +1,109 @@
+---
+    layout: posts
+    title: " Java 기초 개요 정리"
+    categories: log
+    tags: [blog]
+    toc_label: 목차
+    toc: true
+    toc_sticky: true
+    last_modified_at: 2023-10-05 21:26
+    classes: wide
+    published: false
+---
+
+# 코딩테스트 유형
+
+- 정렬 : 버블, 퀵
+- 탐색 : 완전, 이진
+- 부분 문제의 합 : 분할 정복, 다이나믹 프로그래밍
+- 최적 선택 : 그리디
+- 기타 
+
+
+정렬 : 사전에 정렬이 필요한 경우인지 판단하는 문제  
+탐색 : 주어진 데이터에서 특정 값 찾기 ex : 완전탐색, 이진 탐색, 투 포인트, BFS, DFS  
+부문 문제의 합 : 최대 값 찾기 / 부분 수열의 최대 길이(0-1 knapsack) 다이나믹 프로그래밍  
+최적 선택 Greedy : Activity Selection / 거스름돈 
+시뮬레이션 : 조건에 따른 문자열 입력/삭제/수정 문제, 요구사항을 잘 읽어야한다.  
+
+자바 Java
+플랫폼 독립적 : os에따라 코드를 재 작성 x  
+객체 지향적 : 절차 지향적보다 생산성 높음, 보안성 높음  
+
+.java -> java compiler -> .class (byte code) -> JVM(실행할 수 있도록) -> 실행  
+
+변수 Variable - 데이터의 이름  
+
+표기법 : camel, Pascal  
+- camel : myName, zeroBase, iPhone  
+- Pascal : MyName, ZeroBase,IPhone 클래스에 많이 쓰인다.  
+
+sout으로 간단하게 출력문 불러올 수 있다.  
+
+자료형  
+숫자 : 정수 , 실수, 2진수, 8진수, 16진수  
+정수 : int, long 실수 : float,double  
+bool : true, false 표현  
+문자 : 한 개의 문자 표현 char형  
+
+float는 f 붙여서 표현해야함  
+2진수 - 0b 붙여야함
+8진수 - 
+16진수 - 0x 붙임  
+
+Integer.toBinaryString , toOctalString, toHexString으로 string으로 변환해서 출력 가능  
+
+문자열 string 문자로 이루어진 집합  
+StringBuffer 문자열을 자주 추가하거나 변경할 때 사용하는 자료형  
+
+배열  
+int[] myArray1 = {1,2,3,4,5}  
+
+String에서 s1.equals(s2) 으로 동일한지 비교 가능
+== 해도 비교가능이지만  
+String s3 = new String("HI");  
+를 == 비교하면 다르다고 나온다.  
+==는 객체를 비교하는것이고, equals는 값을 비교하는 것이다.  
+
+indexOf 문자 위치 찾는거  
+
+replace 변환하는거  
+
+substring 부분 문자 뽑는거 (시작위치, 끝위치-1) 까지 뽑기  
+
+StringBuffer s1 = new StringBuffer();
+s1.append("1234");
+s1.append("5678");
+데이터 변경되어도 객체가 유지된다. 그냥 string은 객체가 생성된다.  
+
+리스트 list - 배열과 같이 여러 데이터를 담을 수 있는 자료형  
+ArrayList l1 = new ArrayList();  
+l1.add(1) 로 넣을 수 있다.
+l1.add(0,1) : 0번 위치에 1추가
+
+l1.get(0) : 0번 데이터 출력
+
+l1.remove(0) : 0번 데이터 지우기
+l1.remove(Integer.valueOf(2)) : 2번이라는 숫자 리스트를 지움  
+l1.clear() : 리스트 지우기
+l1.sort(Comparator.naturalOrder()); 내림차순  
+l1.sort(Comparator.reverseOrder()); 오름차순  
+l1.contains(1) : 1데이터가 있는지 확인
+
+map - key, value 형태로 데이터 생성 key값으로 접근  
+MAP : HashMap map = new HashMap();
+map.put("KIWI",9000);  
+map.get("KIWI") : KIWI value 가져옴  
+map.size() : map 사이즈 
+map.remove("kiwi") : kiwi 지우기
+map.containsKey("KIWI") : 있는지 없는지 확인
+
+Generics - 자료형을 명시적으로 지정  
+ArrayList l3 = new ArrayList();
+l3.add(1);
+l3.add("hello");
+
+ArrayList<String> l4 = new ArrayList<String>();
+l4.add(1) : 하면 1이라서 String에 안들어간다.  
+
+
